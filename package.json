@@ -9,6 +9,28 @@
     "typescript": "4.0.3"
   },
   "scripts": {
-    "watch": "npx tsc --watch"
-  }
+    "watch": "yarn tsc --watch"
+  },
+  "name": "promisecomponent",
+  "version": "0.2.0",
+  "description": "TBD",
+  "main": "dist/PromiseComponent.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "object-assign": "^4.1.1",
+    "csstype": "^3.0.3",
+    "loose-envify": "^1.4.0",
+    "prop-types": "^15.7.2",
+    "react-is": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldeninski/PromiseComponent.git"
+  },
+  "author": "Lyuben Deninski <ldeninski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldeninski/PromiseComponent/issues"
+  },
+  "homepage": "https://github.com/ldeninski/PromiseComponent#readme"
 }
